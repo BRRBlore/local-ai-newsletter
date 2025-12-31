@@ -1,0 +1,72 @@
+sources:
+  # --- 🧠 Big Tech Research (Deep Science) ---
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    category: "Research"
+
+  - name: "Google DeepMind"
+    url: "https://deepmind.google/blog/rss.xml"
+    category: "Research"
+
+  - name: "Microsoft Research"
+    url: "https://www.microsoft.com/en-us/research/feed/"
+    category: "Research"
+
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: "Engineering"
+
+  - name: "AWS Machine Learning"
+    url: "https://aws.amazon.com/blogs/machine-learning/feed/"
+    category: "Engineering"
+
+  # --- 💻 Builder Trends (Code, Models, Kaggle) ---
+  - name: "GitLab Engineering"
+    url: "https://about.gitlab.com/atom.xml"
+    category: "Engineering"
+
+  - name: "GitHub Blog"
+    url: "https://github.blog/feed/"
+    category: "Engineering"
+
+  - name: "Kaggle Blog"
+    url: "https://medium.com/feed/kaggle-blog"
+    category: "Data Science"
+
+  - name: "Reddit - LocalLLaMA (Top Daily)"
+    url: "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+    category: "Community"
+
+  - name: "Reddit - MachineLearning (Top Daily)"
+    url: "https://www.reddit.com/r/MachineLearning/top/.rss?t=day"
+    category: "Community"
+
+  # --- 📰 Industry News (Breaking Stories) ---
+  - name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    category: "News"
+
+  - name: "The Verge - AI"
+    url: "https://www.theverge.com/rss/artificial-intelligence/index.xml"
+    category: "News"
+
+  - name: "Ars Technica"
+    url: "https://feeds.arstechnica.com/arstechnica/index"
+    category: "News"
+
+  - name: "Wired AI"
+    url: "https://www.wired.com/feed/tag/ai/latest/rss"
+    category: "News"
+
+  # --- 🧐 Analysis & Newsletters (The "Signal") ---
+  - name: "The Rundown AI"
+    url: "https://www.therundown.ai/feed"
+    category: "Newsletter"
+
+  - name: "Ben's Bites"
+    url: "https://bensbites.beehiiv.com/feed"
+    category: "Newsletter"
+
+  - name: "One Useful Thing (Ethan Mollick)"
+    url: "https://www.oneusefulthing.org/feed"
+    category: "Analysis"
