@@ -1,11 +1,11 @@
-# Local AI Newsletter Agent 🤖📰
+# Local AI Newsletter Agent
 
 A fully autonomous, privacy-first AI agent that runs locally on Windows. It wakes up daily, scrapes global AI news, clusters stories using machine learning, and uses a local LLM (Llama 3 via Ollama) to write and email a curated briefing.
 
-## 🏗 Architecture
+## Architecture
 
-**Status:** Production (V3.6)  
-**License:** MIT  
+**Status:** Production (V3.6)
+**License:** MIT
 
 ### The "Edge AI" Pipeline
 This project avoids cloud APIs completely. All inference happens on the "Edge" (my local laptop) using the following pipeline:
@@ -18,14 +18,14 @@ This project avoids cloud APIs completely. All inference happens on the "Edge" (
 
 ![Pipeline Visualization](https://mermaid.ink/img/pako:eNp1UktvwjAM_itWp24S-wA57DA2Tdo04tBceIhNoyZSkzhQG-K_L20pI3qJ7efnZzt5sFZZwQyWtb5VbA0HC8_SRF4XmziJ0_k8XsTTPJnm02S2iOMkTV9eF9N5lBbpZLGMcTqL0yR63iR4-T1w4ODg1sBf0EPHwR082K2D_eCOwQ-wVfAKm1qJ0kGl0Fp7lFwYl8J6v1E2oI8KjYYj0K-wV7D5f2tQO7iA1rZgB7R5e-O8Q63h2qB2UP8XfIRW2aOQk1L5uHAlO6m8D3Q0lFIIr-FwOFqJSttGudI2XFta9z_d4WwF2j1Mti41C1c7Jd3W0i3R_0x5U-hK25XW_V0z5Y1wJ2VbWvdyFcpW2I22S1f6H1PeKHeibEvrvv4H5c1g_wGkIsJ5?type=png)
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Core:** Python 3.11, PowerShell
 * **ML & AI:** `sentence-transformers`, `scikit-learn`, `ollama` (Llama 3.1 8B)
 * **Data:** SQLite, Feedparser
 * **Orchestration:** Custom Python Daemon (`scheduler_service.py`)
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 * Windows 10/11 (Wake Timers enabled)
